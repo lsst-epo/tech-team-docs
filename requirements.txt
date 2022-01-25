@@ -1,0 +1,4 @@
+###### Requirements without Version Specifiers ######
+mkdocs
+mkdocs-material
+mkdocs-static-i18n

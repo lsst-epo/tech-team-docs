@@ -1,0 +1,14 @@
+site_name: EPO Tech Team
+# nav:
+#   - About: about.md
+#   - Contact: contact.md
+theme: 
+  name: material
+  locale: es
+  collapse_navigation: False
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        es: Español
