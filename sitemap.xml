@@ -17,6 +17,46 @@
          
     </url>
     <url>
+         <loc>active-projects/main-site/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/active-projects/main-site/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/active-projects/main-site/"/>
+         
+    </url>
+    <url>
+         <loc>active-projects/investigations/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/active-projects/investigations/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/active-projects/investigations/"/>
+         
+    </url>
+    <url>
+         <loc>active-projects/investigations/axios-request-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/active-projects/investigations/axios-request-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/active-projects/investigations/axios-request-example/"/>
+         
+    </url>
+    <url>
+         <loc>active-projects/investigations/stellar-data-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/active-projects/investigations/stellar-data-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/active-projects/investigations/stellar-data-example/"/>
+         
+    </url>
+    <url>
+         <loc>active-projects/skyviewer/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/active-projects/skyviewer/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/active-projects/skyviewer/"/>
+         
+    </url>
+    <url>
          <loc>cloud-services/</loc>
          <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
@@ -41,11 +81,59 @@
          
     </url>
     <url>
+         <loc>global-dependencies/commit-message-template/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/global-dependencies/commit-message-template/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/global-dependencies/commit-message-template/"/>
+         
+    </url>
+    <url>
+         <loc>global-dependencies/pr-message-template/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/global-dependencies/pr-message-template/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/global-dependencies/pr-message-template/"/>
+         
+    </url>
+    <url>
          <loc>investigations/</loc>
          <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="en/investigations/"/>
          <xhtml:link rel="alternate" hreflang="es" href="es/investigations/"/>
+         
+    </url>
+    <url>
+         <loc>investigations/axios-request-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/axios-request-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/axios-request-example/"/>
+         
+    </url>
+    <url>
+         <loc>investigations/stellar-data-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/stellar-data-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/stellar-data-example/"/>
+         
+    </url>
+    <url>
+         <loc>legacy-projects/ed-hub/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/legacy-projects/ed-hub/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/legacy-projects/ed-hub/"/>
+         
+    </url>
+    <url>
+         <loc>legacy-projects/legacy-main-site/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/legacy-projects/legacy-main-site/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/legacy-projects/legacy-main-site/"/>
          
     </url>
     <url>
@@ -57,11 +145,35 @@
          
     </url>
     <url>
-         <loc>skyviewer/</loc>
+         <loc>project-dependencies/editor-config-example/</loc>
          <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="en/skyviewer/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="es/skyviewer/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="en/project-dependencies/editor-config-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/project-dependencies/editor-config-example/"/>
+         
+    </url>
+    <url>
+         <loc>project-dependencies/eslint-config-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/project-dependencies/eslint-config-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/project-dependencies/eslint-config-example/"/>
+         
+    </url>
+    <url>
+         <loc>project-dependencies/postcss-config-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/project-dependencies/postcss-config-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/project-dependencies/postcss-config-example/"/>
+         
+    </url>
+    <url>
+         <loc>project-dependencies/stylelint-config-example/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/project-dependencies/stylelint-config-example/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/project-dependencies/stylelint-config-example/"/>
          
     </url>
     <url>

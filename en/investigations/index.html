@@ -339,86 +339,72 @@
 
   
   
+  
     
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Formal Education Investigations
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Active Projects
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <nav class="md-nav" aria-label="Active Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Active Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../active-projects/main-site/" class="md-nav__link">
+        Main Site
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../active-projects/investigations/" class="md-nav__link">
         Formal Education Investigations
       </a>
-      
-        
+    </li>
+  
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+            
+          
+            
+              
   
   
   
-    
+    <li class="md-nav__item">
+      <a href="../active-projects/skyviewer/" class="md-nav__link">
+        Skyviewer
+      </a>
+    </li>
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#work-flow" class="md-nav__link">
-    Work Flow
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-stack" class="md-nav__link">
-    The Stack
-  </a>
-  
-    <nav class="md-nav" aria-label="The Stack">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#data" class="md-nav__link">
-    Data
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#es6-javascript" class="md-nav__link">
-    ES6 Javascript
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -430,10 +416,57 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" data-md-state="indeterminate" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Legacy Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Legacy Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Legacy Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../skyviewer/" class="md-nav__link">
-        Skyviewer
+      <a href="../legacy-projects/legacy-main-site/" class="md-nav__link">
+        Legacy CIC Rubin Project Setup
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legacy-projects/ed-hub/" class="md-nav__link">
+        LSST Education Hub
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -536,8 +569,8 @@
 <h3 id="data">Data</h3>
 <p>The investigation app consumes JSON for precursor astronomical data:</p>
 <ul>
-<li>[[Example data format|stellar-data-format]]</li>
-<li>[[Example local http request|local-axios-http-request]] using <a href="https://github.com/axios/axios">Axios</a></li>
+<li><a href="stellar-data-example/">Example data format</a></li>
+<li><a href="axios-request-example/">Example local http request</a> using <a href="https://github.com/axios/axios">Axios</a></li>
 </ul>
 <h3 id="es6-javascript">ES6 Javascript</h3>
 <p>Modern JS is transcompiled to vanilla javascript using babel. Important ES6 functionality includes:</p>
@@ -559,41 +592,6 @@
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../stack/" class="md-footer__link md-footer__link--prev" aria-label="Previous: The Stack" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              The Stack
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../skyviewer/" class="md-footer__link md-footer__link--next" aria-label="Next: Skyviewer" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Skyviewer
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

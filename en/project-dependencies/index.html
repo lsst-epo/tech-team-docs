@@ -330,13 +330,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-links" class="md-nav__link">
-    Quick Links
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#in-the-ide" class="md-nav__link">
     In the IDE
   </a>
@@ -510,10 +503,71 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Active Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Active Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Active Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../investigations/" class="md-nav__link">
+      <a href="../active-projects/main-site/" class="md-nav__link">
+        Main Site
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../active-projects/investigations/" class="md-nav__link">
         Formal Education Investigations
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../active-projects/skyviewer/" class="md-nav__link">
+        Skyviewer
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -525,10 +579,57 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" data-md-state="indeterminate" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Legacy Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Legacy Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Legacy Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../skyviewer/" class="md-nav__link">
-        Skyviewer
+      <a href="../legacy-projects/legacy-main-site/" class="md-nav__link">
+        Legacy CIC Rubin Project Setup
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legacy-projects/ed-hub/" class="md-nav__link">
+        LSST Education Hub
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -558,13 +659,6 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#quick-links" class="md-nav__link">
-    Quick Links
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#in-the-ide" class="md-nav__link">
@@ -711,76 +805,52 @@
 
 <h1 id="project-dependencies">Project Dependencies</h1>
 <p>All of the following project level dependencies are Node packages (modules).  There are three main categories: packages useful in your IDE, packages useful in development (not included in the build), packages useful in production (included in the build).</p>
-<h2 id="quick-links">Quick Links</h2>
-<ul>
-<li>
-<p><a href="#editorconfig">editorconfig</a></p>
-</li>
-<li>
-<p><a href="#prettier">prettier</a></p>
-</li>
-<li>
-<p><a href="#eslint">eslint</a></p>
-</li>
-<li>
-<p><a href="#stylelint">stylelint</a></p>
-</li>
-<li>
-<p><a href="#webpack">webpack</a></p>
-</li>
-<li>
-<p><a href="#browserslist">browserslist</a></p>
-</li>
-<li>
-<p><a href="#babel">babel</a></p>
-</li>
-<li>
-<p><a href="#postcss">postcss</a></p>
-</li>
-<li>
-<p><a href="#autoprefixer">autoprefixer</a></p>
-</li>
-<li>
-<p><a href="react">react</a></p>
-</li>
-<li>
-<p><a href="next.js">next.js</a></p>
-</li>
-<li>
-<p><a href="d3">d3</a></p>
-</li>
-</ul>
 <h2 id="in-the-ide">In the IDE</h2>
 <p>These packages will be installed globally.  You can use <code>npm</code> or <code>yarn</code>.  </p>
 <p>Most of these tools aim to keep a codebase uniform across contributors, as well as organized and legible.  Mostly these tools enforce opinions about the format and structure of the code on the page.</p>
 <p>All of the tools in this section can be configured to produce <code>errors</code> or <code>warnings</code>, and in turn halt builds or commits, or just print infractions and suggestions in the terminal. They can be configured to fix problems automatically. You can also use them in conjunction with IDE plugins in order to view and fix rule infractions in-place. Rules and tools can be disabled inline, or for an entire file.</p>
 <h3 id="editorconfig">editorconfig</h3>
 <p><a href="https://editorconfig.org/">EditorConfig</a> is a code styling tool.  Code styling impacts the basic level of formatting different code (file types) in your IDE.  For instance controlling indentation/spacing. It is not concerned with how you are using the languages corresponding to the designated file types.  This configuration will only have an effect if you add the <a href="https://editorconfig.org/#download">corresponding plugin</a> to your IDE.  The config is a <code>.editorconfig</code> file in the project root of the project.</p>
-<p>Example [[config|EditorConfig Config]]</p>
+<p><a href="editor-config-example/">Example config</a></p>
 <h3 id="prettier">prettier</h3>
 <p><a href="https://prettier.io/">Prettier</a> is an opinionated code formatter that works with many popular languages, including js, jsx, scss, and ruby. For the most part, on our projects, we only use it for js and jsx, and its use is knit into how we use <a href="https://eslint.org/">ESLint</a>: ESlint manages any/all linters that interact with javascript-like files, Prettier included, and Prettier is responsible for the "structure" of those files, while other linters/configs handle how the javascript in those files is implemented.  For instance, we might use prettier to control when and where commas or line breaks are included, but we would use another linter to decide when a variable should be defined using <code>let</code> vs <code>const</code>.  Prettier should be configured in the <code>.eslintrc</code> file but it can also be configured in its own <code>.prettierrc</code> file.</p>
 <h3 id="eslint">eslint</h3>
 <p><a href="https://eslint.org/">ESLint</a> is a js and jsx linter that helps you to follow ES6/Javascript best practices, adopt popular patterns and adhere to style guidelines. Being such a flexible and loosely-typed language, Javascript is especially prone to developer errors that can not be spotted until you execute the code.  Dutifully linting your code can help you avoid some of the more common syntactical errors, and also ensure your code conforms to standards other developers might be familiar with (and hopefully increase legibility). One such standard we rely on is <a href="https://github.com/airbnb/javascript">Airbnb's styleguide</a>.</p>
-<p>Example [[config|ESLint Config]]</p>
+<p><a href="eslint-config-example/">Example config</a></p>
 <h3 id="stylelint">stylelint</h3>
 <p><a href="https://stylelint.io">StyleLint</a> is for styles (CSS, SCSS, Sass, or Less) what ESLint is for Javascript.  With it you can enforce rules about general formatting, what properties are allowed, and catch syntactical errors.  For instance we use stylelint to enforce rules about the order properties should be in, how many levels of nesting are allowed, and what formats for colors are allowed (hex vs rgb vs color name).</p>
-<p>Example [[config|StyleLint Config]]</p>
+<p><a href="stylelint-config-example/">Example config</a></p>
 <h2 id="in-development">In Development</h2>
 <h3 id="webpack">webpack</h3>
 <p><a href="https://webpack.js.org/">Webpack</a> is a dev tool used to build and bundle assets.  In our work these assets primarily take the form of styles, Javascript, precursor data, and any typography, images, and icons served locally.  How to create a webpack config is well out of the scope of this documentation. However, it is important to note that Webpack, in essence, is just a tool for telling other tools what to do.  Therefore the configs and set up of the various plugins Webpack interacts with is crucial to a project successfully building assets in the manner you expect.  </p>
 <p>In our work we typically adopt frontend React Frameworks that make use of Webpack under the hood, but present their own means of configuring stuff that's like one step removed from Webpack itself.</p>
 <h2 id="browserslist">browserslist</h2>
 <p>Like Webpack, <a href="https://github.com/browserslist/browserslist">browserslist</a> is a package meant to support the work other packages do.  It provides the ability to configure what browsers and systems other packages (like postcss, autoprefixer, eslint, etc.) should target for any features, polyfills, or workarounds that might apply.  We recommend including these definitions in the package.json file, however a <code>.browserslistrc</code> file in the root of your project can be used.</p>
-<p>In our work we generally use the following config to target browsers that are still actively maintained (have official support and have had a new version release in the last 2 years), and whose user base is more than 0.5% of all internet browser users. </p>
-<pre><code>&gt; 0.5%, last 2 versions, Firefox ESR, not dead
+<p>In our work we generally use the following config to target browsers that are still actively maintained (have official support and have had a new version release in the last 2 years), and whose user base is more than 0.5% of all internet browser users. This is the the default setting for <code>browserslist</code>.</p>
+<pre><code class="language-json">  &quot;browserslist&quot;: [
+    &quot;defaults&quot;,
+    &quot;not IE 11&quot;
+  ],
 </code></pre>
-<p>This is the the default setting for <code>browserslist</code>.</p>
 <h3 id="babel">babel</h3>
 <p><a href="https://babeljs.io/">Babel</a> is a javascript compiler that does all the work of transpiling our fancy javascript (be it ES6, JSX, typescript, or something even more experimental) into normal, everyday js any ol' browser will run (aka those browsers targeted by <code>browserslist</code>).  Babel. sweet sweet Babel.  Thank you for the gift of modern javascript.  Babel pulls all this off using lots of special workarounds and polyfills.  Some of these are included in the babel core, some of them are provided by babel in the form of additional packages, and some of them are from third-party providers.  These packages are installed as node modules, and referred to in the babel config found in the <code>package.json</code> file.  You may also configure Babel using a <code>.babelrc</code> file in the root of your project.</p>
-<p>Example [[config|Babel Config]]</p>
+<pre><code class="language-json">  &quot;babel&quot;: {
+    &quot;presets&quot;: [
+      &quot;next/babel&quot;
+    ],
+    &quot;plugins&quot;: [
+      [
+        &quot;styled-components&quot;,
+        {
+          &quot;ssr&quot;: true
+        }
+      ]
+    ]
+  },
+</code></pre>
 <h3 id="postcss">postcss</h3>
 <p><a href="https://github.com/postcss/postcss">PostCSS</a> a transpiler/linter for CSS and CSS like languages. With it you can use bleeding-edge CSS properties and standards, but mostly we use it to use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>.</p>
-<p>Example [[config|PostCSS Config]]</p>
+<p><a href="postcss-config-example/">Example config</a></p>
 <h3 id="autoprefixer">autoprefixer</h3>
 <p><a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> is absolutely, 100%, indispensable. It injects all of those vendor prefixes you never remember, making cross-browser support just that much easier. Thank you Autoprefixer.</p>
 <h2 id="in-production">In Production</h2>
