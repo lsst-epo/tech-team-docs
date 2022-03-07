@@ -7,8 +7,13 @@ nav:
   - "project-dependencies/index.md"
   - "github/index.md"
   - "stack/index.md"
-  - "investigations/index.md"
-  - "skyviewer/index.md"
+  - "Active Projects":
+    - "active-projects/main-site.md"
+    - "active-projects/investigations/index.md"
+    - "active-projects/skyviewer/index.md"
+  - "Legacy Projects":
+    - "legacy-projects/legacy-main-site.md"
+    - "legacy-projects/ed-hub.md"
 theme: 
   name: material
   collapse_navigation: False

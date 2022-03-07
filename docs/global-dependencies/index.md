@@ -71,7 +71,8 @@ They have some pretty fantastic [documentation](https://docs.brew.sh/) and there
 
 You can find the Git Config at `~/.gitconfig` and you can [configure a lot of things](https://git-scm.com/docs/git-config)
 
-* [Configure a git message template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template).  This is our [commit message template](Commit-Message-Template).  Along with the template you'll find a description of how we think it aides in writing stronger commit messages. 
+* [Configure a git message template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template).  This is our [commit message template](commit-message-template).  Along with the template you'll find a description of how we think it aides in writing stronger commit messages. 
+* [Configure a PR message template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository).  This is our [PR message template](pr-message-template).  Along with the template you'll find a description of how we think it aides in writing stronger PR messages. 
 * Pick your editor of choice (used for messages, rebases, etc.). If your editor is already aliased: `git config --global core.editor "EDITOR-ALIAS"`.  Otherwise enter the absolute path to the editor: `git config --global core.editor "PATH/TO/EDITOR"`
 
 **How to Branch:** We juggle 3 important branches:  `prod`, `main`, and `develop`.  These branches align with the 3 development environments with Continuous Deployment:
@@ -90,17 +91,17 @@ For feature branches include the JIRA ticket key (like `EPO-1111`) in your branc
 
 **How to Commit:** `git commit` 
 
-Keep it short, sweet, and to the point. [Learn more about message format, and JIRA & Github integrations]((Commit-Message-Template)).  This is our [commit message template](Commit-Message-Template) (see above for guidance on implementation).  Each commit should deliver a **feature**, **chore**, or **bug fix** and a reference to the type of commit should be included at the start of the commit log line as `[F]`, `[C]`, or `[B]` respectively.  E.g. `[F] Brand new cool thing`, `[C] Trivial maintenance task`, `[B] Broken thing works better now`.
+Keep it short, sweet, and to the point. This is our [commit message template](commit-message-template) (see above for guidance on implementation).  Each commit should deliver a **feature**, **chore**, or **bug fix** and a reference to the type of commit should be included at the start of the commit log line as `[F]`, `[C]`, or `[B]` respectively.  E.g. `[F] Brand new cool thing`, `[C] Trivial maintenance task`, `[B] Broken thing works better now`.
 
 * Many commits may refer to the same JIRA ticket; no commit should refer to more than one JIRA ticket.  To associate commit to a Jira ticket include a reference to the Jira ticket key in the commit message.  We typically include this reference as a new line at the end of the commit like:
   
-  ```
-  [F] Brand new cool thing
+```
+[F] Brand new cool thing
   
-  Summary of the coolness
+Summary of the coolness
   
-  [EPO-1111]
-  ```
+[EPO-1111]
+```
 
 * It's the end of the day and you're not ready to push a full on commit? Commit and push your work to a branch for safe keeping anyway, but use a placeholder message `git commit -m "[WIP]"`. Later, when you finish your work, amend your work and change the message `git commit --amend`.  Note: because you already have a message you won't see your commit message template when you amend. Observing this practice ensures that even if your computer explodes during the night, at least the next morning you won't have to readdress that pesky problem from the day before.  RIP your exploded computer.
 
@@ -159,20 +160,4 @@ If you installed an `Intel` version of node, it is recommended that you run all 
 
 ## Apps
 
-### Docker
-
-Several of our projects are run with Docker locally and in production.  Docker configuration and scripting is fairly complicated, but [installing the docker client and running containers is fairly straight-forward](https://docs.docker.com/get-docker/).
-
-### Adobe Creative Cloud
-
-Our team's Designer delivers web designs exclusively in Adobe file formats, principally as InDesign or Illustrator files, and XD prototypes.
-
-### PixelSnap
-
-[PixelSnap](https://getpixelsnap.com) is a super useful tool that does 1 thing very well: pixel-accurate measurements of your screen.  We find this to be invaluable when translating design into code: the ability to compare measurements in XD to those in the browser allows you to quickly and easily verify layouts you defined in stylesheets match those a designer created by hand.
-
-### 1Password
-
-[1Password](https://support.1password.com/getting-started-mac/) is our team's preferred Password Manager.  It is a repository for all of the credentials you use across the internet, or in local software.  It natively, and via browser extensions, supports autofilling form fields.  It is also a 2-factor Authorizer, which means you can use it whenever an online service requires an app-based (as oppose to SMS-based) 2-factor authentication.
-
-### Chronos
+### [See Useful Apps page](../useful-apps)
