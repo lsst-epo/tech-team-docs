@@ -97,30 +97,6 @@
          
     </url>
     <url>
-         <loc>investigations/</loc>
-         <lastmod>2022-03-07</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/"/>
-         
-    </url>
-    <url>
-         <loc>investigations/axios-request-example/</loc>
-         <lastmod>2022-03-07</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/axios-request-example/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/axios-request-example/"/>
-         
-    </url>
-    <url>
-         <loc>investigations/stellar-data-example/</loc>
-         <lastmod>2022-03-07</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/stellar-data-example/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/stellar-data-example/"/>
-         
-    </url>
-    <url>
          <loc>legacy-projects/ed-hub/</loc>
          <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
