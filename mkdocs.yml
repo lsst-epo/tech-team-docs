@@ -1,14 +1,53 @@
 site_name: EPO Tech Team
-# nav:
-#   - About: about.md
-#   - Contact: contact.md
+nav:
+  - "index.md"
+  - "cloud-services/index.md"
+  - "useful-apps/index.md"
+  - "global-dependencies/index.md"
+  - "project-dependencies/index.md"
+  - "github/index.md"
+  - "stack/index.md"
+  - "investigations/index.md"
+  - "skyviewer/index.md"
 theme: 
   name: material
-  locale: es
   collapse_navigation: False
+  features:
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tracking
+    - navigation.expand
+  favicon: img/favicon.ico
+  logo: img/logo.svg
+  font:
+    text: Source Sans Pro
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+extra_css:
+  - styles/extra.css
 plugins:
   - i18n:
+      material_alternate: true
       default_language: en
       languages:
-        en: English
-        es: Español
+        en: 
+          name: English
+          site_name: EPO Tech Team
+        es: 
+          name: Español
+          site_name: EPO Equipo de Tecnología
+  - search:
+      lang:
+        - en
+        - es

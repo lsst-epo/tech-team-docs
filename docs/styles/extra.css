@@ -1,0 +1,29 @@
+/*[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #078b8c;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #078b8c;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}*/
+
+:root {
+  --md-primary-fg-color:             #078b8c;
+  --md-primary-fg-color--light:      #00bebf;
+  --md-primary-fg-color--dark:       #12726d;
+  --md-accent-fg-color:              #0f8fff;
+  --md-accent-fg-color--transparent: #bde0ff;
+}
+
+html {
+  font-size: 22.5px;
+}
+
+.md-header__button.md-logo :-webkit-any(img,svg),
+.md-header__button.md-logo :is(img,svg) {
+  height: 2.5rem;
+  width: 2.5rem;
+}

@@ -1,0 +1,3 @@
+# Dependencias Globales
+
+Needs Translation
