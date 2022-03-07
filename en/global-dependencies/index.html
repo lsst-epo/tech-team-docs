@@ -1,0 +1,808 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.4">
+    
+    
+      
+        <title>Global Dependencies - EPO Tech Team</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#global-dependencies" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="EPO Tech Team" class="md-header__button md-logo" aria-label="EPO Tech Team" data-md-component="logo">
+      
+  <img src="../../img/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EPO Tech Team
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Global Dependencies
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../../global-dependencies/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="../../es/global-dependencies/" hreflang="es" class="md-select__link">
+                    Español
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="EPO Tech Team" class="md-nav__button md-logo" aria-label="EPO Tech Team" data-md-component="logo">
+      
+  <img src="../../img/logo.svg" alt="logo">
+
+    </a>
+    EPO Tech Team
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Rubin EPO Web Development: A How To
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-services/" class="md-nav__link">
+        Cloud Services
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../useful-apps/" class="md-nav__link">
+        Useful Apps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Global Dependencies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Global Dependencies
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    Zsh
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oh-my-zsh" class="md-nav__link">
+    Oh My Zsh
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nodenv" class="md-nav__link">
+    nodenv
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yarn" class="md-nav__link">
+    yarn
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apps" class="md-nav__link">
+    Apps
+  </a>
+  
+    <nav class="md-nav" aria-label="Apps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adobe-creative-cloud" class="md-nav__link">
+    Adobe Creative Cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pixelsnap" class="md-nav__link">
+    PixelSnap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1password" class="md-nav__link">
+    1Password
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chronos" class="md-nav__link">
+    Chronos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-dependencies/" class="md-nav__link">
+        Project Dependencies
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github/" class="md-nav__link">
+        Github
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stack/" class="md-nav__link">
+        The Stack
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../investigations/" class="md-nav__link">
+        Formal Education Investigations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skyviewer/" class="md-nav__link">
+        Skyviewer
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    Zsh
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oh-my-zsh" class="md-nav__link">
+    Oh My Zsh
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nodenv" class="md-nav__link">
+    nodenv
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yarn" class="md-nav__link">
+    yarn
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apps" class="md-nav__link">
+    Apps
+  </a>
+  
+    <nav class="md-nav" aria-label="Apps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adobe-creative-cloud" class="md-nav__link">
+    Adobe Creative Cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pixelsnap" class="md-nav__link">
+    PixelSnap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1password" class="md-nav__link">
+    1Password
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chronos" class="md-nav__link">
+    Chronos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="global-dependencies">Global Dependencies</h1>
+<p>Currently, the EPO team exclusively uses Macs. Therefore all of the tools and processes described are going to be Mac specific, but many tools have direct analogs on Windows or Linux, and alternative commands, software, etc. should be readily available (we're not discussing anything too crazy here).  In 2020 Apple released a new chip architecture.  This new architecture necessitates a few important and particular workflows. When commands or technologies are specific to one architecture or the other, <code>Intel</code> will designate the legacy architecture and <code>M1</code> will designate the new architecture.</p>
+<h3 id="zsh">Zsh</h3>
+<p>As of Big Sur Apple machines ship with <a href="https://medium.com/@harrison.miller13_28580/bash-vs-z-shell-a-tale-of-two-command-line-shells-c65bb66e4658">Zsh (as oppose to bash)</a> as the official terminal.  This change brings a couple minor differences like editing <code>.zprofile</code> and <code>.zshrc</code> files instead of <code>.bashprofile</code> and <code>.bashrc</code> files, but otherwise is very similar.  A couple suggested conveniences to include in your <code>.zprofile</code>:</p>
+<p><strong>Exports</strong></p>
+<pre><code class="language-bash">export EDITOR=&lt;your fave text editor&gt;
+export VISUAL=&quot;$EDITOR&quot;
+</code></pre>
+<p><strong>Aliases</strong></p>
+<pre><code class="language-bash">alias ls='ls -GFh'
+
+alias gs='git status'
+alias gf='git fetch --all'
+alias gr='git log'
+alias gre='git log --pretty=full'
+
+alias arm=&quot;arch -arm64 zsh --login&quot;
+alias intel=&quot;arch -x86_64 zsh --login&quot;
+</code></pre>
+<p>That first alias gussies up the standard <code>ls</code> output to be a bit more verbose and a bit more human readable.  The git aliases are all just shortcuts to typing less.  And the last 2 are only applicable if you are on a M1 mac.  These commands are useful for quickly switching your whole shell between mac architectures (switching between native M1 architecture and Intel architecture emulated with Rosetta 2)</p>
+<h3 id="oh-my-zsh">Oh My Zsh</h3>
+<p>One neato thing that zsh supports much better than bash is theming and plugins.  <a href="https://ohmyz.sh/#install">Oh My Zsh</a> is a popular framework for managing your Zsh configurations.</p>
+<p><strong>How to Install:</strong> <code>sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code></p>
+<p><strong>Aliases:</strong> Oh My Zsh aliases <a href="https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index">a whole bunch of helpful git shortcuts</a> for ya.</p>
+<p><strong>Theming:</strong> <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">There are a whole bunch of themes to choose from</a>, and writing your own, or extending existing themes is fairly straight-forward.  </p>
+<p>For instance, <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster">Agnoster</a> is theme attuned to working with git.  It will give you some helpful colors and iconography in your prompt that indicate what branch you are on, what kind of commands you may be performing, etc.</p>
+<h3 id="homebrew">Homebrew</h3>
+<p><a href="https://brew.sh/">Homebrew</a> is one of those where have you been all my life products. In their own words, it's "The missing package manager for macOS." If you've done much web development without Homebrew you have probably run into many moments where packages or shared dependencies collide, or you hunt all over your file system to delete one version of something just to confidently upgrade to another, or some things are in one user directory, or some weird bin directory, or you're always having to <code>sudo</code> install all manner of things everywhere, and on and on.  Well, for the most part Homebrew gets you around all that by being your one source of truth for everything you install on your Mac that isn't downloaded from the App Store. </p>
+<p>They have some pretty fantastic <a href="https://docs.brew.sh/">documentation</a> and there are lots of <a href="https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/">installation tutorials</a> out there, so we'll breeze through how to install Homebrew, callout a few commands, and then move on to some critical packages that are installed with Homebrew.  <strong>Note:</strong> Homebrew now prompts you to allow the Xcode Command Line Tools to be installed along with the initial Homebrew install.  We recommend you allow the Xcode Command Line Tools to be installed in this way.  However, if you don't allow, you can always install separately.</p>
+<p><strong>How to Install:</strong> <code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p>
+<p><strong>How to Update Homebrew:</strong> <code>brew update</code></p>
+<p><strong>How to Get a Package:</strong> <code>brew install PACKAGE-NAME</code></p>
+<p><strong>How to Update a Package:</strong> <code>brew upgrade PACKAGE-NAME</code></p>
+<p><strong>How to List Packages Installed with Homebrew:</strong> <code>brew list</code></p>
+<p><strong>What's wrong with Homebrew?:</strong> <code>brew doctor</code></p>
+<h3 id="git">Git</h3>
+<p><a href="https://git-scm.com/">Git</a> makes the world go 'round.  No really.  If you are building software (for the web or otherwise) you are going to use Git.  Even if you're not committing your work to Github, you're still using Git. So get used to it. It's great.  We're not going to spend anytime here going through the basics, instead we'll callout a couple best practices we aspire to on the EPO team.</p>
+<p><strong>How to Install:</strong> <code>brew install git</code></p>
+<p><strong>Github Authentication:</strong>  We use Github to manage all of our repos.  We highly recommend using <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication">two-factor authentication</a> and <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh">connecting with SSH</a></p>
+<p><strong>How to Configure Git:</strong> <code>git config</code> </p>
+<p>You can find the Git Config at <code>~/.gitconfig</code> and you can <a href="https://git-scm.com/docs/git-config">configure a lot of things</a></p>
+<ul>
+<li><a href="https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template">Configure a git message template</a>.  This is our <a href="Commit-Message-Template">commit message template</a>.  Along with the template you'll find a description of how we think it aides in writing stronger commit messages. </li>
+<li>Pick your editor of choice (used for messages, rebases, etc.). If your editor is already aliased: <code>git config --global core.editor "EDITOR-ALIAS"</code>.  Otherwise enter the absolute path to the editor: <code>git config --global core.editor "PATH/TO/EDITOR"</code></li>
+</ul>
+<p><strong>How to Branch:</strong> We juggle 3 important branches:  <code>prod</code>, <code>main</code>, and <code>develop</code>.  These branches align with the 3 development environments with Continuous Deployment:</p>
+<ul>
+<li>
+<p><code>prod</code> deploys to <strong>Production</strong></p>
+</li>
+<li>
+<p><code>main</code> deploys to <strong>Integration</strong></p>
+</li>
+<li>
+<p><code>develop</code> deploys to <strong>Development</strong>.  </p>
+</li>
+</ul>
+<p>In older projects <code>main</code> is still <code>master</code>. </p>
+<p>Because the <strong>Production</strong> and <strong>Integration</strong> environments are potentially "live" to the public or stakeholders you are restricted from pushing work directly to <code>prod</code> and <code>main</code>; work must be merged from a PR (more on this in <a href="Deployment-Workflows">Deployment Workflows</a>).</p>
+<p>For feature branches include the JIRA ticket key (like <code>EPO-1111</code>) in your branch name to associate your pull request with that JIRA ticket. If you know multiple people are going to be committing work to a single JIRA ticket, but on separate branches, differentiate your branch from theirs (like <code>YOUR-NAME/EPO-1111</code>)</p>
+<p><strong>How to Commit:</strong> <code>git commit</code> </p>
+<p>Keep it short, sweet, and to the point. <a href="(Commit-Message-Template)">Learn more about message format, and JIRA &amp; Github integrations</a>.  This is our <a href="Commit-Message-Template">commit message template</a> (see above for guidance on implementation).  Each commit should deliver a <strong>feature</strong>, <strong>chore</strong>, or <strong>bug fix</strong> and a reference to the type of commit should be included at the start of the commit log line as <code>[F]</code>, <code>[C]</code>, or <code>[B]</code> respectively.  E.g. <code>[F] Brand new cool thing</code>, <code>[C] Trivial maintenance task</code>, <code>[B] Broken thing works better now</code>.</p>
+<ul>
+<li>Many commits may refer to the same JIRA ticket; no commit should refer to more than one JIRA ticket.  To associate commit to a Jira ticket include a reference to the Jira ticket key in the commit message.  We typically include this reference as a new line at the end of the commit like:</li>
+</ul>
+<p>```
+  [F] Brand new cool thing</p>
+<p>Summary of the coolness</p>
+<p>[EPO-1111]
+  ```</p>
+<ul>
+<li>It's the end of the day and you're not ready to push a full on commit? Commit and push your work to a branch for safe keeping anyway, but use a placeholder message <code>git commit -m "[WIP]"</code>. Later, when you finish your work, amend your work and change the message <code>git commit --amend</code>.  Note: because you already have a message you won't see your commit message template when you amend. Observing this practice ensures that even if your computer explodes during the night, at least the next morning you won't have to readdress that pesky problem from the day before.  RIP your exploded computer.</li>
+</ul>
+<p><strong>How to Pull Requests:</strong> You can <a href="https://git-scm.com/docs/git-request-pull">submit and merge pull requests from the command line</a>, but we generally work in Github to create and approve. You can also use pull request templates. This is our <a href="PR-Message">Pull Request Template</a>.  Include the JIRA ticket key (like <code>EPO-1111</code>) in your branch name to associate your pull request with that JIRA ticket.</p>
+<p><strong>How to Rebase:</strong> <code>git rebase &lt;branch&gt;</code> </p>
+<p>Rebasing is such an awesome thing.</p>
+<ul>
+<li><code>git merge</code> is for squares.  It creates kinda superfluous merge messages in the log and tends to lead to more merge conflicts, and conflicts between collaborators' branches.  To avoid all this, always rebase your work on top of <code>develop</code> before submitting or merging a pull request: while on your working branch <code>git rebase origin/develop</code></li>
+<li>If your project has multiple contributors, rebase your work onto<code>develop</code> after every commit to avoid any merge conflicts down the line.</li>
+<li>Do a set of commits in your pull request feel too granular? Do they all add up to a single feature, chore, or bug fix?  Do the commit messages in your pull request feel all wrong?  Start an <a href="https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history">interactive rebase</a>: <code>git rebase -i HEAD~&lt;NUMBER-OF-COMMITS-BACK&gt;</code>.  Once in an interactive rebase you can combine, rewrite, or even skip commits.</li>
+</ul>
+<p><strong>How to Cherry Pick:</strong> <code>git cherry-pick &lt;commit-id&gt;</code></p>
+<p>Cherry picking commits off one branch and plopping them onto another has saved many a merge/rebase troubles headache.  <code>cherry-pick</code> is what's happening under the hood when rebasing (i.e. a rebase is just a collection of <code>cherry-picks</code> applied in sequence) and it's a good technique to keep in mind when git stuff goes awry.</p>
+<h3 id="nodenv">nodenv</h3>
+<p><a href="https://github.com/nodenv/nodenv">nodenv</a> is a <a href="https://nodejs.org/en/about/">Node</a> version manager.  While EPO is in a position to dictate the Node version space across all of our products, using a version manager is still a meaningful pattern because it increases flexibility, allows for ease of experimentation, and it provides a record of the Node version at a project level.</p>
+<p><strong>Install:</strong> <code>brew install nodenv</code></p>
+<p><strong>Global Node:</strong> <code>nodenv global &lt;VERSION&gt;</code> (writes version to <code>~/.nodenv/version</code>)</p>
+<p><strong>Local Node:</strong> <code>nodenv local &lt;VERSION&gt;</code> (creates <code>.node-version</code> file in root of your project)</p>
+<p><strong>Note about M1:</strong> Support across node dependencies across versions of node across systems/architectures is somewhat patchy.  Especially so for Apple M1 as it is still relatively new.  For this reason, you will find some repo readmes demand not only specific node versions, but also that it be explicitly installed as <code>M1</code> or <code>Intel</code>.  There is not currently a way to assert this specificity with only <code>nodenv</code> commands.  Instead, you need to spoof your desired architecture for your shell and then run your <code>nodenv</code> commands as usual.  For example:</p>
+<pre><code>$ arch -x86_64 zsh --login
+$ arch
+i386
+$ nodenv install 12.14.0
+Downloading node-v12.14.0-darwin-x64.tar.gz...
+-&gt; https://nodejs.org/dist/v12.14.0/node-v12.14.0-darwin-x64.tar.gz
+Installing node-v12.14.0-darwin-x64...
+Installed node-v12.14.0-darwin-x64 to /path/to/.nodenv/versions/12.14.0
+</code></pre>
+<p>If you installed an <code>Intel</code> version of node, it is recommended that you run all subsequent node-related commands as <code>Intel</code>.</p>
+<h3 id="yarn">yarn</h3>
+<p><a href="https://yarnpkg.com/en/">yarn</a> is a node package manager.  It acts as a replacement for <a href="https://github.com/npm/cli">npm</a>.  <code>yarn</code> and <code>npm</code> continue to converge both in terms of functionality and support.</p>
+<p><strong>How to install:</strong> <code>brew install yarn</code></p>
+<p><strong>How to install all dependencies in <code>package.json</code> as specified in <code>yarn.lock</code>:</strong> <code>yarn</code></p>
+<p><strong>How to add a new dependency:</strong> <code>yarn add &lt;PACKAGE-NAME&gt;</code></p>
+<p><strong>How to add a new dev dependency:</strong> <code>yarn add -D &lt;PACKAGE-NAME&gt;</code></p>
+<p><strong>How to run a node command specified in <code>package.json</code>:</strong> <code>yarn &lt;COMMAND-NAME&gt;</code></p>
+<h2 id="apps">Apps</h2>
+<h3 id="docker">Docker</h3>
+<p>Several of our projects are run with Docker locally and in production.  Docker configuration and scripting is fairly complicated, but <a href="https://docs.docker.com/get-docker/">installing the docker client and running containers is fairly straight-forward</a>.</p>
+<h3 id="adobe-creative-cloud">Adobe Creative Cloud</h3>
+<p>Our team's Designer delivers web designs exclusively in Adobe file formats, principally as InDesign or Illustrator files, and XD prototypes.</p>
+<h3 id="pixelsnap">PixelSnap</h3>
+<p><a href="https://getpixelsnap.com">PixelSnap</a> is a super useful tool that does 1 thing very well: pixel-accurate measurements of your screen.  We find this to be invaluable when translating design into code: the ability to compare measurements in XD to those in the browser allows you to quickly and easily verify layouts you defined in stylesheets match those a designer created by hand.</p>
+<h3 id="1password">1Password</h3>
+<p><a href="https://support.1password.com/getting-started-mac/">1Password</a> is our team's preferred Password Manager.  It is a repository for all of the credentials you use across the internet, or in local software.  It natively, and via browser extensions, supports autofilling form fields.  It is also a 2-factor Authorizer, which means you can use it whenever an online service requires an app-based (as oppose to SMS-based) 2-factor authentication.</p>
+<h3 id="chronos">Chronos</h3>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../useful-apps/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Useful Apps" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Useful Apps
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../project-dependencies/" class="md-footer__link md-footer__link--next" aria-label="Next: Project Dependencies" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Project Dependencies
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "search.suggest", "search.highlight", "search.share", "navigation.tracking", "navigation.expand"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5413a266.min.js"></script>
+      
+    
+  </body>
+</html>

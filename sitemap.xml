@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>None</loc>
-         <lastmod>2022-01-26</lastmod>
+         <loc>.</loc>
+         <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/"/>
+         
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-01-26</lastmod>
+         <loc>markdown-cheat-sheet/</loc>
+         <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/markdown-cheat-sheet/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/markdown-cheat-sheet/"/>
+         
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-01-26</lastmod>
+         <loc>cloud-services/</loc>
+         <lastmod>2022-03-07</lastmod>
          <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/cloud-services/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/cloud-services/"/>
+         
+    </url>
+    <url>
+         <loc>github/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/github/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/github/"/>
+         
+    </url>
+    <url>
+         <loc>global-dependencies/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/global-dependencies/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/global-dependencies/"/>
+         
+    </url>
+    <url>
+         <loc>investigations/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/investigations/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/investigations/"/>
+         
+    </url>
+    <url>
+         <loc>project-dependencies/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/project-dependencies/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/project-dependencies/"/>
+         
+    </url>
+    <url>
+         <loc>skyviewer/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/skyviewer/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/skyviewer/"/>
+         
+    </url>
+    <url>
+         <loc>stack/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/stack/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/stack/"/>
+         
+    </url>
+    <url>
+         <loc>useful-apps/</loc>
+         <lastmod>2022-03-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/useful-apps/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="es/useful-apps/"/>
+         
     </url>
 </urlset>
